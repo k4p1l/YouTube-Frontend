@@ -1,0 +1,154 @@
+.header{
+    height:55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:white;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(240, 240, 240);
+    z-index:100;
+}
+
+.left-section{
+    display:flex;
+    align-items: center;
+}
+
+.hamburger-menu{
+    height:24px;
+    margin-left:24px;
+    margin-right:24px;
+}
+
+.youtube-logo{
+    height:20px;
+}
+.search-icon{
+height:25px;
+
+}
+
+.search-button{
+    height:40px;
+    width:66px;
+    background-color: rgb(248, 248, 248);
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(215, 215, 215);
+    margin-left: -66px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.search-button,
+.voice-search-button,
+.upload-icon-container{
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-button .tooltip,
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip{
+    position:absolute;
+    background-color: rgba(99, 99, 99, 0.8);
+    color:white;
+    padding:8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 2px;
+    font-size:12px;
+    bottom:-30px;
+    opacity:0;
+    transition:opacity 0.15s;
+    pointer-events:none; /* when our mouse hovers over tooltip it will do nothng*/
+    white-space: nowrap; /* this will prevent the text from wrapping around*/
+}
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip {
+    opacity:1;
+}
+
+.voice-search-button{
+    height:40px;
+    width:40px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgb(250, 250, 250)
+}
+.voice-search-icon{
+    height:24px;
+    
+
+}
+
+.search-bar{
+    flex:1;
+    height:36px;
+    padding-left:12px;
+    margin-left:10px;
+    font-size:16px;
+    border: 1px solid rgb(215,215,215);/* width style color*/
+    border-radius:2px;
+    box-shadow:inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0; 
+} /*so that it shrinks to min*/
+.search-bar::placeholder{
+    font-size:16px;
+
+}
+
+.middle-section{
+    flex:1;
+    margin-left:70px;
+    margin-right:35px;
+    max-width:650px;
+    display:flex;
+    align-items:center
+}
+
+.right-section{
+    width:150px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:20px;
+    flex-shrink: 0; /*so that it doesn't shrink at all*/
+}
+
+.upload-icon{
+    height:26px;
+}
+.notifications-icon-container{
+    position:relative;
+}
+.notifications-count{
+    position:absolute;
+    top:-2px;
+    right:-2px;
+    background-color: rgb(179, 0, 0);
+    color:white;
+    font-size: 12px;
+    font-weight: 500;
+    padding:4px;
+    padding-top:1px;
+    padding-bottom: 0px;
+    border-radius: 20px;
+}
+.notification-icon{
+    height:26px;
+}
+.user-pic{
+    height:32px;
+    border-radius:16px;
+}
+

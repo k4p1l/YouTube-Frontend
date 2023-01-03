@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@40
+0;500;700&display=swap" 
+rel="stylesheet">
+        <title>YouTube.com Clone</title>
+       <link rel="stylesheet" href="styles/general.css">
+       <link rel="stylesheet" href="styles/header.css">
+       <link rel="stylesheet" href="styles/video.css">
+       <link rel="stylesheet" href="styles/sidebar.css">
+
+
+    </head>
+    <body>
+        <! div is division or just a box and a block element. divs are by default display block.>
+
+<div class="header">
+    <div class="left-section"> <img class="hamburger-menu"src="icons/hamburger-menu.svg">
+                            <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section"> <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+            <img class="search-icon" src="icons/search-button.svg">
+            <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+            <img class="voice-search-icon" src="icons/voice-search.svg">
+            <div class="tooltip">Search with your voice</div>
+        </button>
+        <!-- Put position absolute inside position relative-->
+
+    </div>
+    <div class="right-section"> 
+        <div class="upload-icon-container"> <img class=" upload-icon" src="icons/upload-button.svg">
+            <div class="tooltip">Create</div>
+        </div>
+        
+        <div class="notifications-icon-container"> 
+            <img class="notification-icon" src="icons/notification-bell.svg">
+            <div class="notifications-count">7</div>
+        </div>
+      
+        <img class="user-pic" src="pfp/channel-pic.jpg">
+    </div>
+</div>
+
+<div class="sidebar">
+    <div class="sidebar-link">
+        <img src="icons/home-icon.svg">
+        <div> Home</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="icons/shorts-icon.svg">
+        <div> Shorts</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="icons/subscriptions-icon.svg">
+        <div> Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+        <img src="icons/library-icon.svg">
+        <div> Library</div>
+    </div>
+</div>
+      
+
+
+        <div class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row"> 
+                    <a href="https://youtu.be/lewolKwghKM" target="_blank"> <img class="thumbnail" src="thumbnails/thumb-1.jpg"></a>
+                    <div class="video-time">6:46 </div>
+                </div>
+    
+                <div class="video-info-grid">      
+                    <div class="channel-picture">  <img class="pfp" src="pfp/geazy pfp.jpg">  
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title"><a href="https://youtu.be/lewolKwghKM" target="_blank"> The Process Mini-Series: Episode 19</a> </p>
+                    <p class="video-author">G-Eazy</p>
+                    <p class="video-stats">60K views &#183; 10 months ago</p>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/2tt4qUtN9aA" target="_blank"><img class="thumbnail" src="thumbnails/thumb-2.jpg"></a>
+                    <div class="video-time">3:25</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">  <img class="pfp" src="pfp/geazy pfp.jpg">  
+                    </div> 
+                    <div class="video-info">
+                        <p class="video-title"><a href="https://youtu.be/2tt4qUtN9aA" target="_blank">G-Eazy - These Things Happen Too (Live Session) | Vevo Ctrl</a> </p>
+                        <p class="video-author">G-Eazy</p>
+                        <p class="video-stats">576K views &#183; 1 year ago ago</p>
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row"> 
+                    <a href="https://youtu.be/2ocINd0Id3U" target="_blank"><img class="thumbnail" src="thumbnails/thumb-3.jpg"></a>
+                    <div class="video-time">5:38 </div>
+                </div>
+    
+                <div class="video-info-grid">      
+                    <div class="channel-picture">  <img class="pfp" src="pfp/dreadlabs.jpg">  
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title"><a href="https://youtu.be/2ocINd0Id3U" target="_blank">I use this technique to get INFINITE inspiration for my designs!</a></p>
+                    <p class="video-author">Dreadlabs</p>
+                    <p class="video-stats">  2.1K views &#183; 2 months ago </p>
+                    <p class="fund">Fundraiser</p>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/8H_oPZxaGxU" target="_blank"><img class="thumbnail" src="thumbnails/thumb-4.jpg"></a>
+                    <div class="video-time">5:38 </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">  <img class="pfp" src="pfp/codegrid.jpg">  
+                    </div> 
+                    <div class="video-info">
+                        <p class="video-title"><a href="https://youtu.be/8H_oPZxaGxU" target="_blank">Web Design Inspiration 2022 (June)</a></p>
+                        <p class="video-author">Codegrid</p>
+                        <p class="video-stats">4.8K views &#183; 5 months ago</p>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row"> 
+                    <a href="https://youtu.be/_tIGtopDZ80" target="_blank"><img class="thumbnail" src="thumbnails/thumb-6.jpg"></a>
+                    <div class="video-time">0:44 </div>
+                </div>
+    
+                <div class="video-info-grid">      
+                    <div class="channel-picture">  <img class="pfp" src="pfp/pavel.jpg">  
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title"><a href="https://youtu.be/_tIGtopDZ80" target="_blank">SEEMEE feat MAYOT - WINDOWS | (unofficial video)</a></p>
+                    <p class="video-author">pavelfuffsu</p>
+                    <p class="video-stats">19K views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                   <a href="https://youtu.be/G-nPudBSEMY"> <img class="thumbnail" src="thumbnails/thumb-5.jpg"> </a> 
+                    <div class="video-time">8:54 
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">  <img class="pfp" src="pfp/luna.jpg">  
+                    </div> 
+                    <div class="video-info">
+                      <p class="video-title"> <a href="https://youtu.be/G-nPudBSEMY" target="_blank"> grwm for a dinner party + vlog </a></p>
+                        <p class="video-author">Luna B</p>
+                        <p class="video-stats">6K views &#183; 3 months ago ago</p>
+                    </div>
+                </div>
+            </div> 
+            
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                   <a href="https://youtu.be/6_pru8U2RmM" target="_blank"> <img class="thumbnail" src="thumbnails/thumb-7.jpg"></a>
+                    <div class="video-time">3:25</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">  <img class="pfp" src="pfp/apple.jpg">  
+                    </div> 
+                    <div class="video-info">
+                        <p class="video-title"><a href="https://youtu.be/6_pru8U2RmM" target="_blank">The whole working-from-home thing — Apple</a></p>
+                        <p class="video-author">Apple</p>
+                        <p class="video-stats">34M views &#183; 2 years ago ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/49YeFsx1rIw" target="_blank"><img class="thumbnail" src="thumbnails/thumb-8.jpg"></a>
+                    <div class="video-time">3:25</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">  <img class="pfp" src="pfp/apple.jpg">  
+                    </div> 
+                    <div class="video-info">
+                        <p class="video-title"><a href="https://youtu.be/49YeFsx1rIw" target="_blank">A one-take journey through Russia’s iconic Hermitage museum | Shot on iPhone 11 Pro</a></p>
+                        <p class="video-author">Apple</p>
+                        <p class="video-stats">1.1M views &#183; 2 years ago ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+             
+    </body>
+</html>
